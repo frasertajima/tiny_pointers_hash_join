@@ -8,15 +8,6 @@ other one-off application demos in the parent `tiny_pointers/` directory. Depend
 `ttd_find_r`/`ttd_insert_r`, and the linear-probe baseline `lpd_find`/`lpd_insert`) — see
 `../README.md` for that module's own documentation and every other application built on it.
 
-## Build & run
-
-```
-make            # builds joindemo, joindemo_reliable, join_example_small, libhashjoin.so
-make csv        # runs the CLI benchmarks with the `csv` flag, writes the CSVs
-make notebook   # csv + regenerates/executes HASH_JOIN_ENGINE.ipynb (benchmark notebook)
-make howto      # builds libhashjoin.so + regenerates/executes HOW_TO_USE.ipynb (the packaged API)
-make run        # runs the small worked example with human-readable output
-```
 
 ## The packaged Python API (`hash_join.py` / `libhashjoin.so`, added 2026-07-29)
 
